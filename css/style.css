@@ -22,23 +22,46 @@ body {
 body .dashboard {
   margin-left: 10px;
 }
+body .dashboard h2 {
+  font-weight: 400;
+  color: var(--text-color);
+}
 
 .header {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  width: 50px;
+  width: 60px;
   min-height: 100vh;
   background-color: var(--green);
 }
 .header .nav-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
   width: 100%;
   height: 400px;
-  background-color: var(--text-color);
+}
+.header .nav-div .nav-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}
+.header .nav-div .nav-icons:nth-child(2) {
+  background-color: var(--light-grey);
+  border-radius: 10px;
 }
 .header .nav-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 45px;
+  cursor: pointer;
   background-color: var(--light-green);
 }
