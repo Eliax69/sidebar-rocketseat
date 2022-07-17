@@ -14,5 +14,31 @@
 }
 
 body {
+  display: flex;
   font-family: "Poppins", sans-serif;
+  background-color: var(--body-bg-color);
+  height: 100vh;
+}
+body .dashboard {
+  margin-left: 10px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 50px;
+  min-height: 100vh;
+  background-color: var(--green);
+}
+.header .nav-div {
+  width: 100%;
+  height: 400px;
+  background-color: var(--text-color);
+}
+.header .nav-footer {
+  width: 100%;
+  height: 45px;
+  background-color: var(--light-green);
 }
